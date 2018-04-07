@@ -10,7 +10,7 @@ it 'can change car color using paint method' do
 end
 
 it 'should have a driver' do
-  expect(subject.driver).to eq :driver
+  expect(subject).to respond_to(:driver)
 end
 
 end
